@@ -61,7 +61,7 @@ class Autoloader
 		{
 			$home = explode(DIRECTORY_SEPARATOR, __DIR__);
 			$home = DIRECTORY_SEPARATOR.$home[1].DIRECTORY_SEPARATOR.$home[2];
-			define('HOME_DIR', $home, true);
+			define('HOME_DIR', $home);
 		}
 	}
 
